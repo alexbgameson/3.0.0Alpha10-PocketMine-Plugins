@@ -1,0 +1,11 @@
+# BoostPad Config file.
+# Made by BoxOfDevs Team.
+
+# Boost Block ID. ID list: http://minecraft-ids.grahamedgecombe.com/
+Block: 152
+
+# Boost Power
+BoostPower: 0.8
+
+# Enable or Disable Flame Particle.
+Particle: true
