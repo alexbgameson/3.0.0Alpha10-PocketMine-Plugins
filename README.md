@@ -7,4 +7,9 @@ https://github.com/BoxOfDevs/BoostPad
 >>JumpPad plugin which allows users to create jumpPads out of redstone blocks.
 
 
+2vs2 3.0.0Alpha9
+
+>>1vs1 plugin edited for use on PocketMine-MP with API 3.0.0Alpha9.
+
+
 Plugins intended for use on PocketMine-MP servers only.
