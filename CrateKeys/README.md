@@ -8,7 +8,7 @@ Mine, Find a key, Unlock treasure chest and collect treasures :)
  1. Download .phar file from "Releases" or compile locally from source
  2. Put .phar file into ~/plugins folder
  3. Restart server
- 4. Play & Mine
+ 4. Use slim ball to unlock a chest
  
 # Disclaimer
 
