@@ -1,9 +1,0 @@
-name: BlockTypeCorrector
-main: jasonwynn10\corrector\Main
-description: "A plugin to correct the random blocks that change when a world is ported from PC to PocketMine"
-author: "jasonwynn10"
-version: 0.2.0
-api:
- - 3.0.0
- - 3.0.0-ALPHA7
-load: STARTUP
