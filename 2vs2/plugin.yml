@@ -3,7 +3,7 @@ main: Minifixio\onevsone\OneVsOne
 version: 0.0.4
 api:
  - 3.0.0
- - 3.0.0-ALPHA7
+ - 3.0.0-ALPHA9
 description: 1vs1 Plugin
 permissions:
   onevsone.refarena:
