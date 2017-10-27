@@ -1,0 +1,64 @@
+---
+### Czech language file by @GamakCZ
+
+## Commands:
+
+not-perms: '§cNemáš povolení použít tento příkaz!'
+default-usage: '§cPoužij: §7/mw help'
+
+# Help Command:
+help-0: '§b--- == §c[§aMultiWorld§c] §b== ---'
+help-1: '§e/mw create §7: §9Vytvoří nový svět'
+help-2: '§e/mw teleport §7: §9Teleportuje na svět'
+help-3: '§e/mw list §7: §9Zobrazí list všech světů'
+help-4: '§e/mw <load|unload> §7: §9Načte | Odnačte svět'
+help-5: '§e/mw update §7: §9Nastaví spawn, lobby nebo základní svět'
+help-6: '§e/mw delete §7: §9Odstraní svět'
+help-7: '§e/mw set §7: §9Nastaví funkce světa'
+# Create Command:
+create-usage: '§cPoužij: §7/mw create <jméno> [seed] [generátor]'
+create-gennotexists: '§cGenerátor neexistuje!';
+create-generating: '§aVytvářím svět %1'
+create-done: 'Svět %1 je vytvořen se seedem: %2 a generátorem: %3.'
+# Teleport Command:
+teleport-usage: '§cPoužij: §7/mw teleport <svět> [hráč]'
+teleport-levelnotexists: '§cSvět nebyl nalezen! Použij /mw create pro vytvoření světa.'
+teleport-load: 'Načítám svět %1...'
+teleport-done-1: '§aJsi teleportován do světa %1.'
+teleport-done-2: '§aHráč %2 byl teleportován do světa %1!'
+teleport-playernotexists: '§cPlayer does not exists!'
+# List Command:
+list-done: '§aSvěty: %1'
+# Load Command:
+load-usage: '§cPoužij: §7/mw load <svět>'
+load-levelnotexists: '§cSvět %1 neexistuje!'
+load-loaded: '§cNelze načíst načtený svět!'
+load-done: '§aSvět byl načten!'
+# Unload Command
+unload-usage: '§cPoužij: §7/mw unload <svět>'
+unload-levelnotexists: '§cSvět %1 neexistuje!'
+unload-unloaded: '§cNelze odnačíst odnačtený svět!'
+unload-done: '§aSvět byl odnačten!'
+# Delete Command:
+delete-usage: '§cPoužij: §7/mw delete <svět>'
+delete-levelnotexists: '§cSvět %1 neexistuje!'
+delete-done: '§aSvět byl smazán (Bylo smazáno %1 složek)!'
+# Update Command:
+update-usage: '§cPoužij: §7/mw update <mód: spawn|lobby|default> [nastavení: (x) (y) (z) (svět)]'
+update-levelnotexists: 'Svět %1 nebyl nalezen'
+update-spawn-done: '§aSpawn ve světě %1 byl změněn.'
+update-lobby-done: '§aLobby ve světě %1 bylo změněno.'
+update-default-usage: '§cPoužij: §7/mw update default <level>'
+update-default-done: '§aHlavní svět byl změněn.'
+update-notsupported: '§cTento příkaz není v konzoli podporován'
+# Set Command:
+set-usage: '§cPoužij: §7/mw set <svět> <gamemode> <nastavení: 0|1|2|3>'
+set-levelnotfound: '§cSvět %1 nebyl nalezen!'
+set-gamemode-notfound: '§cHerní mód %1 neexistuje!'
+set-gamemode-done: '§aHerní mód ve světě %1 byl změněn na %2!'
+# Worldedit Command:
+worldedit-usage: '§cPoužij §7/mw we <pos1|pos2|set> [nastavení: bloky]'
+worldedit-select-pos1: '§aPrvní pozice byla nastavena na %1'
+worldedit-select-pos2: '§aDruhá pozice byla nastavena na %2'
+worldedit-filled: '§aProstor byl vyplněn (%1 bloků změněno)!'
+...

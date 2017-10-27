@@ -1,0 +1,64 @@
+---
+### English language file by @GamakCZ, need fix
+
+## Commands:
+
+not-perms: '§cYou have not permissions to use this command!'
+default-usage: '§cUsage: §7/mw help'
+
+# Help Command:
+help-0: '§b--- == §c[§aMultiWorld§c] §b== ---'
+help-1: '§e/mw create §7: §9Generate level'
+help-2: '§e/mw teleport §7: §9Teleport to level'
+help-3: '§e/mw list §7: §9Displays list of all levels'
+help-4: '§e/mw <load|unload> §7: §9Load | Unload level'
+help-5: '§e/mw update §7: §9Set lobby, spawn or default level'
+help-6: '§e/mw delete §7: §9Delete level'
+help-7: '§e/mw set §7: §9Manage world'
+# Create Command:
+create-usage: '§cUsage: §7/mw create <name> [seed] [generator]'
+create-gennotexists: '§cGenerator %1 not found.'
+create-generating: '§aGenerating level %1'
+create-done: 'Level %1 is generated using seed: %2 and generator: %3.'
+# Teleport Command:
+teleport-usage: '§cUsage: §7/mw teleport <level> [player]'
+teleport-levelnotexists: '§cLevel is not generated yet! Try /mw create for generate level.'
+teleport-load: 'Loading level %1...'
+teleport-done-1: '§aYou are teleported to level %1.'
+teleport-done-2: '§aPlayer %2 is teleported to level %1!'
+teleport-playernotexists: '§cPlayer does not exists!'
+# List Command:
+list-done: '§aLevels: %1'
+# Load Command:
+load-usage: '§cUsage: §7/mw load <level>'
+load-levelnotexists: '§cLevel %1 does not exists!'
+load-loaded: '§cUnable to load loaded level!'
+load-done: '§aLevel loaded!'
+# Unload Command:
+unload-usage: '§cUsage: §7/mw unload <level>'
+unload-levelnotexists: '§cLevel %1 does not exists!'
+unload-unloaded: '§cUnable to unload unloaded level!'
+unload-done: '§aLevel unloaded!'
+# Delete Command:
+delete-usage: '§cUsage: §7/mw delete <level>'
+delete-levelnotexists: '§cLevel %1 does not exists!'
+delete-done: '§aLevel deleted! (%1 files removed.)'
+# Update Command:
+update-usage: '§cUsage: §7/mw update <mod: spawn|lobby|default> [options: (x) (y) (z) (level)]'
+update-levelnotexists: '§cLevel %1 does not exists!'
+update-spawn-done: '§aSpawn in level %1 was changed.'
+update-lobby-done: '§aLobby in level %1 was changed.'
+update-default-usage: '§cUsage: §7/mw update default <level>'
+update-default-done: '§aDefault level was changet to %1.'
+update-notsupported: '§cThis command is not supported in console.'
+# Set Command:
+set-usage: '§cUsage: §7/mw set <level> <gamemode> <options: 0|1|2|3>'
+set-levelnotfound: '§cLevel % does not found!'
+set-gamemode-notfound: '§cGamemode %1 does not found!'
+set-gamemode-done: '§aGamemode in level %1 was changet to %2!'
+# Worldedit Command:
+worldedit-usage: '§cUsage: §7/mw we <pos1|pos2|set> [options: blocks]'
+worldedit-select-pos1: '§aFirst position was selected at %1'
+worldedit-select-pos2: '§aSecond position was selected at %2'
+worldedit-filled: '§aFilled (%1 blocks changed)!'
+...
