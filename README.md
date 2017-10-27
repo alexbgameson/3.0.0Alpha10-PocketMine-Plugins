@@ -22,4 +22,19 @@ SuperVanish 3.0.0-Alpha9
 >>Simple vanish plugin for PocketMine-MP. Use command /supervanish to disappear.
 
 
+Multi-Inv 3.0.0-Alpha9
+
+>>Simple inventory plugin for PocketMine-MP. Allows for players to have seperate inventory's in each world.
+
+
+PerWorldChat 3.0.0-Alpha9
+
+>>Simple chat plugin for PocketMine-MP. Sets diffrent chat channels in each world.
+
+
+TimeCommander 3.0.0-Alpha9
+
+>>Timed command plugin for PocketMine-MP. Set commands and intervals in config.yml.
+
+
 Plugins intended for use on PocketMine-MP servers only.
