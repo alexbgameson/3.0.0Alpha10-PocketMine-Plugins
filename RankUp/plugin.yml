@@ -1,0 +1,20 @@
+name: RankUp
+main: rankup\RankUp
+version: 0.3.2
+author: Falkirks
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
+load: POSTWORLD
+softdepend: ["EconomyAPI", "PocketMoney", "PurePerms"]
+permissions:
+ rankup:
+  default: true
+  children:
+    rankup.rankup:
+      default: true
+      description: Allow ranking up
+    rankup.admin:
+      default: op
+      description: Manage RankUp and view statistics
+    rankup.groups:
+      default: false
+      description: Do NOT set this. It is used for group managment.
