@@ -1,0 +1,6 @@
+---
+enable: "true"
+economy-plugin: EconomyMaster
+money: 100
+message: You kill {name} and earn {money} coins
+...
