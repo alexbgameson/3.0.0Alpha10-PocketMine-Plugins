@@ -1,0 +1,13 @@
+name: SuperVanish
+main: erkam2002\Vanish
+version: 2.0
+author: [VMPE Development Team]
+api: 3.0.0-ALPHA9
+commands:
+  supervanish:
+    description: "Vanish your self"
+    aliases: [sv]
+permissions:
+  supervanish.spectate:
+    description: "Vanish use perm"
+    default: op
