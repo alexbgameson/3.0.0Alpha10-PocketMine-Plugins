@@ -37,4 +37,9 @@ TimeCommander 3.0.0-Alpha9
 >>Timed command plugin for PocketMine-MP. Set commands and intervals in config.yml.
 
 
+PeacefulSpawn 3.0.0-Alpha9
+
+>>Disable pvp in spawn protected area.
+
+
 Plugins intended for use on PocketMine-MP servers only.
