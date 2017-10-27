@@ -17,4 +17,9 @@ CrateKeys 3.0.0-Alpha9
 >>Simple crates and crate keys plugin for PocketMine-MP. Tap chest with slime ball to open.
 
 
+SuperVanish 3.0.0-Alpha9
+
+>>Simple vanish plugin for PocketMine-MP. Use command /supervanish to disappear.
+
+
 Plugins intended for use on PocketMine-MP servers only.
