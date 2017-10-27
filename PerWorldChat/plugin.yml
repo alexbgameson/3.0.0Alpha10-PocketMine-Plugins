@@ -1,0 +1,10 @@
+name: PerWorldChat
+main: PerWorldChat\Main
+version: "0.2.1"
+api:
+ - 3.0.0
+ - 3.0.0-ALPHA9
+authors:
+ - EvolSoft
+ - jasonwynn10
+description: "Per-World Chat"

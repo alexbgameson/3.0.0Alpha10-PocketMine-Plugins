@@ -1,0 +1,8 @@
+name: MultiworldInventorys
+author: "jasonwynn10"
+version: 0.1.0
+api:
+ - 3.0.0
+ - 3.0.0-ALPHA9
+main: jasonwynn10\Minv\Main
+description: ""
