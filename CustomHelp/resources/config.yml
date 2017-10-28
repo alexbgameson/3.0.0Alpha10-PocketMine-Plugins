@@ -1,0 +1,40 @@
+# Configuration file for CustomHelp
+# CustomHelp by @McpeBooster
+
+CountHelpSites: [1, 2, 3]
+
+
+CommandsPerSite: [1, 2, 3, 4, 5, 6, 7, 8]
+
+#First help Page
+1:
+  line1: ß6-> /test1
+  line2: ß6-> /test2
+  line3: ß6-> /test3
+  line4: ß6-> /test4
+  line5: ß6-> /test5
+  line6: ß6-> /test6
+  line7: ß6-> /test7
+  line8: ß6-> /test8
+  
+  #Second help Page
+2:
+  line1: ß6-> /test9
+  line2: ß6-> /test10
+  line3: ß6-> /test11
+  line4: ß6-> /test12
+  line5: ß6-> /test13
+  line6: ß6-> /test14
+  line7: ß6-> /test15
+  line8: ß6-> /test16
+  
+  #Third help Page
+3:
+  line1: ß6-> /test17
+  line2: ß6-> /test18
+  line3: ß6-> /test19
+  line4: ß6-> /test20
+  line5: ß6-> /test21
+  line6: ß6-> /test22
+  line7: ß6-> /test23
+  line8: ß6-> /test24

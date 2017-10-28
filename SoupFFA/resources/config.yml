@@ -1,0 +1,29 @@
+# Configuration file for SoupFFA
+# SoupFFA by @McpeBooster
+
+#If you need help, look at the ReadMe.md
+
+
+#Language of the Plugin: only supportet eng/deu/fra/ara/chi/spa/tur
+#Language change needs an Server Restart!
+language: eng
+
+#The SoupFFA Arena world here
+arena: debug123
+
+#The spawnprotecion radius, where PvP is disabled
+spawnprotection: 5
+
+#Kit for Normal Players
+sword: 267
+helmet: 298
+chestplate: 303
+leggings: 300
+boots: 301
+
+#Kit for Vip Players with the permission "soupffa.vip"
+vipsword: 267
+viphelmet: 302
+vipchestplate: 303
+vipleggings: 304
+vipboots: 305

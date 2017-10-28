@@ -1,0 +1,21 @@
+#Spain language file:
+#translated by @McpeBooster
+
+#Player
+player.join= ¡Te has unido a SoupFFA!
+player.join.already= ¡Ya estás en un SoupFFA Arena!
+player.join.error= §c No puedes unirte a SoupFFA
+player.quit= ¡Dejaste SoupFFA!
+player.quit.noarena= ¡No estás en un SoupFFA Arena!
+player.kill= ¡Has matado a §c{player}§7!
+player.death= ¡El jugador §c{player} §7te ha matado!
+player.spawnprotection= PvP sólo se permite más lejos de la freza!
+player.healed= §cHas sido sanado
+player.noperm= §c¡No tienes permiso para hacerlo!
+
+#Settings
+settings.sign.set= Conjunto JoinSign
+setting.world.change= Cambia el mundo de SoupFFA en el config.yml !!!
+
+#Console
+console.onlyingame= §cEste comando sólo se puede utilizar en el juego!

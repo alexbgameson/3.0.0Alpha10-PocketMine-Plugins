@@ -1,0 +1,15 @@
+# Configuration file for JoinSystem
+# JoinSystem by @McpeBooster
+
+#If you need help, look at the ReadMe.md
+#After every change here, restart the Server!
+
+
+#Fill here the Lobby world in:
+Lobby: debug123
+
+#The JoinMessage:
+JoinMsg: §2+ §6{player}
+
+#The QuitMessage
+QuitMsg: §c+ §6{player}

@@ -1,0 +1,37 @@
+# Configuration file for KnockbackFFA
+# KnockbackFFA by @McpeBooster
+
+#If you need help, look at the ReadMe.md or how_to_use.txt
+
+
+#Every change needs an Server Restart!
+
+
+#Language of the Plugin: only supportet eng/deu/fra/rus
+language: eng
+
+
+#GamePrefix
+Prefix: §7[§6KnockbackFFA§7]
+
+#KnockbackFFA Arena's:
+
+#Example:
+#Arenas:
+#- Test
+#- Test2
+
+Arenas: []
+
+#Activate/Deactivate Title (true/false)
+Title: true
+
+#Maximum of Players per Arena
+MaxPlayer: 25
+
+#ProtectionRadius where PvP is disabled
+ProtectionRadius: 5
+
+#Sign
+#Line1: KnockbackFFA
+#Line2: Your Arena world

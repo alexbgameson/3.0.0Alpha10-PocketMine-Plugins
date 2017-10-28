@@ -1,0 +1,23 @@
+How to install:
+
+| Step | Description |
+|   1  | First change the world in the config.yml |
+|   2  | Second create a Sign with "KnockbackFFA" on the FirstLine and your Arena on the second! |
+|   3  | Click on the Sign and play with you friends :D |
+
+Features:
+
+- Killstreak
+- Multiarena
+- Multilang (English, German, Franze, Russian )
+- Joinsign
+- Custom Messages
+- Echantment
+- Spawnprotection
+
+Contact details:
+
+Twitter: https://twitter.com/McpeBooster
+YouTube: https://youtube.com/McpeBooster
+GitHub: https://github.com/McpeBooster
+E-Mail: mcpebooster@gmail.com
