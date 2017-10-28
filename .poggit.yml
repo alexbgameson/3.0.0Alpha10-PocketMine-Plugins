@@ -1,0 +1,43 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/alexbgameson/3.0.0Alpha9-PocketMine-Plugins
+branches:
+- master
+projects:
+  2vs2:
+    path: 2vs2/
+  BoostPad:
+    path: BoostPad/
+  CrateKeys:
+    path: CrateKeys/
+  CustomHelp:
+    path: CustomHelp/
+  JoinSystem:
+    path: JoinSystem/
+  KillCash:
+    path: KillCash/
+  KnockbackFFA:
+    path: KnockbackFFA/
+  Multi-Inv:
+    path: Multi-Inv/
+  MultiWorld:
+    path: MultiWorld/
+  PVPlevelRPG:
+    path: PVPlevelRPG/
+  PeacefulSpawn:
+    path: PeacefulSpawn/
+  PerWorldChat:
+    path: PerWorldChat/
+  PlayerVaults:
+    path: PlayerVaults/
+  RankUp:
+    path: RankUp/
+  SkyBlock:
+    path: SkyBlock/
+  SoupFFA:
+    path: SoupFFA/
+  SuperVanish:
+    path: SuperVanish/
+  TapToDo:
+    path: TapToDo/
+  TimeCommander:
+    path: TimeCommander/
+...
