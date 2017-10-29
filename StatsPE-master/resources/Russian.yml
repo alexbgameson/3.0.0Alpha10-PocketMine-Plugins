@@ -1,0 +1,41 @@
+lang: Russian
+version: 1.0.0
+
+lines:
+    commands:
+        stats:
+            description: "Просмотреть статистику о игроке"
+            usage: "/stats [player]"
+            notFound: "Не найдена статистика о игроке: \"{player}\"!"
+            "true": "Да"
+            "false": "Нет"
+        statspe:
+            description: "Просмотр информации об управлении летающего текста в StatsPE"
+            usage: "/statspe [floatingtext <add|remove|list|info> [имя]]"
+            header: "§4~~~ §bИнформация о §d{full_name} §4~~~"
+            author: "§6Автор: §d{author}"
+            api: "§6Supported API versions: §d{apis}"
+            provider: "§6Data provider: §d{provider}"
+            datarecords: "§6Data records: §d{records_amount}"
+            entries: "§6Записи: §d{entries}"
+            floatingtext:
+                missingName: "§cУкажите имя для летающего текста!"
+                senderNotPlayer: "§cИспользуйте эту команду в игре!"
+                addSuccess: "§aЭтот летаюший текст '{name}' was added successfully!"
+                alreadyExists: "§cЭтот летаюший текст '{name}' уже сушествует!"
+                removeSuccess: "§aЭтот летаюший текст '{name}' успешно удален!"
+                notFound: "§cЭтот летаюший текст '{name}' не найден!"
+                listAll: "§Существующие  летаюшие тексты ({count}): {names}"
+                info:
+                    name: "§6Имя: §b{name}"
+                    position: "§6Позиция: §b{x}, {y}, {z} in level '{level}'"
+                    entries: "§6Показать записи: §b{entries}"
+    general:
+        header: "§c--- §dСтатистика of §a{value} §c---"
+        onlinetime:
+            years: "y"
+            months: "месяц(ы)"
+            days: "d"
+            hours: "h"
+            minutes: "m"
+            seconds: "s"

@@ -1,0 +1,41 @@
+lang: English
+version: 1.0.0
+
+lines:
+    commands:
+        stats:
+            description: "Zeigt die Statistiken eines Spielers an"
+            usage: "/stats [Spieler]"
+            notFound: "Konnte keine Statistiken für folgenden Spieler finden: \"{player}\"!"
+            "true": "Ja"
+            "false": "Nein"
+        statspe:
+            description: "Zeigt Informationen über das StatsPE Plugin und verwaltet schwebende Texte"
+            usage: "/statspe [floatingtext <add|remove|list|info> [Name]]"
+            header: "§4~~~ §bInformationen über §d{full_name} §4~~~"
+            author: "§6Autor: §d{author}"
+            api: "§6Unterstützte API Versionen: §d{apis}"
+            provider: "§6Datenprovider: §d{provider}"
+            datarecords: "§6Dateneinträge: §d{records_amount}"
+            entries: "§6Einträge: §d{entries}"
+            floatingtext:
+                missingName: "§cBitte gebe einen Namen für den schwebenden Text an!"
+                senderNotPlayer: "§cBitte benutze diesen Befehl im Spiel!"
+                addSuccess: "§aDer schwebende Text '{name}' wurde erfolgreich hinzugefügt!"
+                alreadyExists: "§cDer schwebende Text '{name}' existiert bereits!"
+                removeSuccess: "§cDer schwebende Text '{name}' wurde erfolgreich entfernt!"
+                notFound: "§cDer schwebende Text '{name}' existiert nicht!"
+                listAll: "§6Existierende Texte: ({count}): {names}"
+                info:
+                    name: "§6Name: §b{name}"
+                    position: "§6Position: §b{x}, {y}, {z} in level '{level}'"
+                    entries: "§6Angezeigte Daten: §b{entries}"
+    general:
+        header: "§c--- §dStatistiken von §a{value} §c---"
+        onlinetime:
+            years: "J"
+            months: "Monat(e)"
+            days: "T"
+            hours: "Std"
+            minutes: "M"
+            seconds: "S"

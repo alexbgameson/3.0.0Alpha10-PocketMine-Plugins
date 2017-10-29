@@ -1,0 +1,41 @@
+lang: English
+version: 1.0.0
+
+lines:
+    commands:
+        stats:
+            description: "Shows the statistics of a player"
+            usage: "/stats [player]"
+            notFound: "Couldn't find any statistics for: \"{player}\"!"
+            "true": "Yes"
+            "false": "No"
+        statspe:
+            description: "Shows information about the statspe plugin and manages floating texts"
+            usage: "/statspe [floatingtext <add|remove|list|info> [name]]"
+            header: "§4~~~ §bInformation about §d{full_name} §4~~~"
+            author: "§6Author: §d{author}"
+            api: "§6Supported API versions: §d{apis}"
+            provider: "§6Data provider: §d{provider}"
+            datarecords: "§6Data records: §d{records_amount}"
+            entries: "§6Entries: §d{entries}"
+            floatingtext:
+                missingName: "§cPlease specify a name for the floating text!"
+                senderNotPlayer: "§cPlease use this command in-game!"
+                addSuccess: "§aThe floatingtext '{name}' was added successfully!"
+                alreadyExists: "§cThe floatingtext '{name}' already exists!"
+                removeSuccess: "§aThe floatingtext '{name}' was removed successfully!"
+                notFound: "§cThe floatingtext '{name}' doesn't exist!"
+                listAll: "§6Existing floatingtexts ({count}): {names}"
+                info:
+                    name: "§6Name: §b{name}"
+                    position: "§6Position: §b{x}, {y}, {z} in level '{level}'"
+                    entries: "§6Shown entries: §b{entries}"
+    general:
+        header: "§c--- §dStatistics of §a{value} §c---"
+        onlinetime:
+            years: "y"
+            months: "month(s)"
+            days: "d"
+            hours: "h"
+            minutes: "m"
+            seconds: "s"

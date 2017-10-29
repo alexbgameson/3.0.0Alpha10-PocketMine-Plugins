@@ -1,0 +1,59 @@
+name: StatsPE
+version: 3.6.0
+api: [3.0.0-ALPHA9]
+main: SalmonDE\StatsPE\Base
+description: Playerstatistics for your server!
+author: SalmonDE
+load: POSTWORLD
+permissions:
+    statspe:
+        description: Main permission of StatsPE
+        children:
+            statspe.cmd:
+                description: Main permission of the StatsPE commands
+                children:
+                statspe.cmd.statspe:
+                    description: Permission for /statspe
+                    children:
+                        statspe.cmd.statspe.floatingtext:
+                        description: Permission for /statspe floatingtext
+                statspe.cmd.stats:
+                    description: Permission for /stats
+                    default: true
+                    children:
+                        statspe.cmd.stats.others:
+                            description: Permission for /stats [name]
+                            default: true
+            statspe.entry:
+                description: Allows to see entries of the statistics
+                children:
+                    statspe.entry.ClientID:
+                    statspe.entry.LastIP:
+                    statspe.entry.UUID:
+                    statspe.entry.XBoxAuthenticated:
+                    statspe.entry.OnlineTime:
+                        default: true
+                    statspe.entry.FirstJoin:
+                        default: true
+                    statspe.entry.LastJoin:
+                        default: true
+                    statspe.entry.K/D:
+                        default: true
+                    statspe.entry.JoinCount:
+                        default: true
+                    statspe.entry.KillCount:
+                        default: true
+                    statspe.entry.DeathCount:
+                        default: true
+                    statspe.entry.BlockBreakCount:
+                        default: true
+                    statspe.entry.BlockPlaceCount:
+                        default: true
+                    statspe.entry.ChatCount:
+                        default: true
+                    statspe.entry.ItemConsumeCount:
+                        default: true
+                    statspe.entry.ItemCraftCount:
+                        default: true
+                    statspe.entry.ItemDropCount:
+                        default: true

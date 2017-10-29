@@ -1,0 +1,42 @@
+# Configuration file for StatsPE
+
+# Select your language
+Language: English
+
+# Enable Stats: true/false
+Stats:
+  Online: true
+  ClientID: true
+  LastIP: true
+  UUID: true
+  XBoxAuthenticated: false
+  FirstJoin: true
+  LastJoin: true
+  JoinCount: true
+  KillCount: true
+  K/D: true
+  DeathCount: true
+  OnlineTime: true
+  BlockBreakCount: true
+  BlockPlaceCount: true
+  ChatCount: true
+  ItemConsumeCount: true
+  ItemCraftCount: true
+  ItemDropCount: true
+
+# Date format, for a further explanation see here: http://php.net/manual/de/function.date.php
+dateFormat: "H:i:s d. M Y"
+# Data provider for StatsPE
+# It can save it's data in these providers:
+# mysql, json
+Provider: json
+JSON:
+    # Time in minutes after which changes are saved
+    saveInterval: 20
+# mysql settings in case you're using it
+MySQL:
+    host: "example.net:3306"
+    username: "ExampleUser"
+    password: "123456789"
+    database: "StatsPE"
+    cacheLimit: 100
