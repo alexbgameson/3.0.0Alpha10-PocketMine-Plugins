@@ -1,0 +1,9 @@
+name: TeaSpoon
+main: CortexPE\Main
+version: 1.0.0
+api: [3.0.0-ALPHA9]
+load: STARTUP
+author: CortexPE
+description: Extends PMMP by 1000x. srsly. 
+website: http://cortexpe.xyz
+
