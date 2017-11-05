@@ -1,0 +1,17 @@
+name: RestartMe
+main: restartme\RestartMe
+version: 1.2.0
+api: 3.0.0-ALPHA9
+load: STARTUP
+author: Gamecrafter
+description: Make sure your server stays up all the time!
+website: https://github.com/Gamecrafter/PocketMine-Plugins/tree/master/RestartMe
+permissions:
+ restartme:
+  default: op
+  children:
+   restartme.command:
+    default: op
+    children:
+     restartme.command.restartme:
+      default: op

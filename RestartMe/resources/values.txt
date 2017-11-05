@@ -1,0 +1,6 @@
+List of usable values for messages:
+{RESTART_FORMAT_TIME}
+{RESTART_HOUR}
+{RESTART_MINUTE}
+{RESTART_SECOND}
+{RESTART_TIME}
