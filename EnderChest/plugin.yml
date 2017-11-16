@@ -1,0 +1,10 @@
+---
+name: EnderChest
+version: 1.0.0
+api:
+- 3.0.0-ALPHA8
+- 3.0.0-ALPHA9
+main: enderchest\Loader
+author: TheAz928 (Az928)
+
+...
