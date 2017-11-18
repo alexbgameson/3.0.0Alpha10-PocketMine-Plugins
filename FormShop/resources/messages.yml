@@ -1,0 +1,21 @@
+mainform:
+  title: "Добро пожаловать в магазин"
+  content: "Ваш баланс: %money%."
+  category_button: "%category_name%"
+itemsform:
+  title: "Добро пожаловать в магазин"
+  content: "Ваш баланс: %money%."
+  item_button: "%item_name% %id%:%damage% (%price%)"
+  no_content: "Категория пуста"
+selectcountform:
+  title: "Вы желаете купить %item_name% %id%:%damage% (%price%). Ваш баланс: %money%."
+  slider_name: "Выберите количество"
+buyform:
+  title: "Подтвердить покупку"
+  content: "Вы желаете купить %item_name% %id%:%damage% (%price%). Ваш баланс: %money%. Количество: %count%. Сумма покупки: %fullprice%"
+  no_money: "Недостаточно денег. Вам нужно: %fullprice%"
+  buy_button: "Купить"
+
+full_inventory: "Недостаточно места в инвентаре"
+pay: "Вы успешно приобрели %count% %item_name%"
+mainformreturn: "Вернуться в главное меню"
