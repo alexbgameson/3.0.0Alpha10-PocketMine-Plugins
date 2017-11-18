@@ -1,0 +1,16 @@
+---
+# Heads costs
+money.zombie: 100
+money.issuchitel: 200
+money.dragon: 300
+money.creeper: 400
+
+# Heads Bough
+msg.shop.zombie: "§aYou just bough, §2Zombie"
+msg.shop.issuchitel: "§aYou just bough, §8Wither Skeleton"
+msg.shop.dragon: "§aYou just bough, §eDragon"
+msg.shop.creeper: "§aYou just bough, Creeper"
+
+# Dont have money
+msg.no-money: "§cYou don't have enough money."
+...

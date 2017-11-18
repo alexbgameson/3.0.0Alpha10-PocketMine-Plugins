@@ -1,0 +1,11 @@
+name: MaskShop
+main: MASKshop\Main
+api: [3.0.0, 3.0.1, 3.0.0-ALPHA9]
+version: 1.0
+author: PLUGPLUS
+Translate: Russian to English by xXNiceYT
+
+commands:
+ mask:
+  aliases: ["maskshop"]
+  description: "Mask Shop Command"
