@@ -1,8 +1,15 @@
 # Категория
 blocks:
   #Название категории
-  name: "Blocks"
+  name: "§l§bBlocks"
   #Предметы
   #ID:Damage:<цена за штуку>
   items:
     - "45:0:30"
+weapons:
+  #Название категории
+  name: "§l§6Weapons"
+  #Предметы
+  #ID:Damage:<цена за штуку>
+  items:
+    - "276:0:1200"
