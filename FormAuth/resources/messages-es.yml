@@ -1,0 +1,29 @@
+---
+messages-version: "1.0.0"
+language: "es"
+
+already-registered: "&cYa estas registrado."
+short-password: "&cLa contraseña es muy corta."
+long-password: "&cLa contraseña es muy larga."
+success-register: "&aTe has registrado exitosamente en el servidor."
+ip-register: "&cEl numero de registros por direccion IP alcanzo el máximo."
+auth-success: "&aHas sido exitosamente autorizado en el servidor."
+many-password-attempts: "&cDemaciados intentos de contraseña."
+wrong-password: "&cContraseña incorrecta."
+already-auth: "&cYa ha iniciado sesión."
+changepassword-success: "&aHas cambiado exitosamente tu contraseña."
+no-already-register: "&cNo estas registrado."
+password-password: "&cLas contraseñas introduciadas no coinciden."
+
+form:
+  register-title: "Registro&r"
+  input-password: "Contraseña:&r\n&kPiensa en una contraseña segura de %var0% a %var1% caracteres.&r"
+  confirm-input-password: "Confirmar contraseña:&r\n&7Necesitamos asegurarnos de que recuerde la contraseña.&r"
+  auth-title: "Authorizacion&r"
+  input-passw: "Contraseña:&r"
+  changepassword-title: "Cambiar contraseña&r"
+  input-new_password: "&lNueva contraseña:&r"
+  input-confirm_new_password: "&lConfirmar contraseña:&r"
+
+already-play: "&cUn jugador con este sobrenombre ya juega en el servidor!"
+...

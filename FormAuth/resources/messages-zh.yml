@@ -1,0 +1,29 @@
+---
+messages-version: "1.0.0"
+language: "zh"
+
+already-registered: "&c你已註冊。"
+short-password: "&c密碼太短。"
+long-password: "&c密碼太長。"
+success-register: "&a您成功在伺服器上註冊。"
+ip-register: "&c這個IP地址的註冊數量已到最大值。"
+auth-success: "&a您已成功在伺服器上登入。"
+many-password-attempts: "&c密碼嘗試太多次。"
+wrong-password: "&c密碼錯誤。"
+already-auth: "&c您已登錄。"
+changepassword-success: "&a您成功更改密碼。"
+no-already-register: "&c您還沒有註冊。"
+password-password: "&c你輸入的密碼不匹配。"
+
+form:
+  register-title: "註冊&r"
+  input-password: "密碼:&r\n&7想一個密碼強度高的密碼由 %var0% 到 %var1% 個字元.&r"
+  confirm-input-password: "確認密碼:&r\n&7我們需要確保你記得密碼。&r"
+  auth-title: "登入&r"
+  input-passw: "密碼:&r"
+  changepassword-title: "更改密碼&r"
+  input-new_password: "&l新密碼:&r"
+  input-confirm_new_password: "&l確認密碼:&r"
+
+already-play: "&c有一個和你一樣暱稱的玩家已在此伺服器上遊玩!"
+...

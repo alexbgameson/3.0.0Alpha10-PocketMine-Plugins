@@ -1,0 +1,34 @@
+---
+# Set the default language for FormAuth <3
+# - en, ru, uk, es, zh, de
+# English message resource by @dirouc (GitHub)
+# Russian message resource by @dirouc (GitHub)
+# Ukrainian message resource by @dirouc (GitHub)
+# Spanish message resource by @Kaneki-chi (Github) 
+# Chinese message resource by @XuPaperCup (Github) 
+# German message resource by @nikipuh (Github) 
+default-language: en
+
+#Keep logged in by IP
+IPLogin: false
+#Force single authentication
+force-single-auth: true
+#Allow not authenticated users to move
+allow-move: false
+#Block chat for not authenticated users
+block-chat: true
+#Block commands for not authenticated users
+block-commands: true
+#Block all events
+block-all-events: true
+#Minimum password length
+minPasswordLength: 8
+#Maximum password length
+maxPasswordLength: 32
+
+# Debug message
+# - true/false
+debug-message: false
+# Create form in second
+create-form-sec: 3
+...

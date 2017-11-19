@@ -1,0 +1,29 @@
+---
+messages-version: "1.0.0"
+language: "de"
+
+already-registered: "&cDu bist bereits registriert."
+short-password: "&cDas Passwort ist zu kurz."
+long-password: "&cDas Passwort ist zu lang."
+success-register: "&aDu hast dich erfolgreich auf dem Server registriert."
+ip-register: "&cÜber diese IP haben sich schon zu viele Spieler registriert."
+auth-success: "&aDu wurdest erfolgreich angemeldet."
+many-password-attempts: "&cDu hast zu oft erfolglos versucht dich anzumelden."
+wrong-password: "&cDieses Passwort ist nicht richtig."
+already-auth: "&cDu bist bereits angemeldet."
+changepassword-success: "&aDu hast dein Passwort erfolgreich geändert."
+no-already-register: "&cDu bist nicht registriert."
+password-password: "&cDie Passwörter die du eingegeben hast stimmen nicht überein."
+
+form:
+  register-title: "Registrierung&r"
+  input-password: "Passwort:&r\n&7Denke dir ein Passwort mit mindestens %var0% und maximal %var1% Zeichen aus.&r"
+  confirm-input-password: "Bestätige dein Passwort:&r\n&7Wir müssen sicher sein das du dich an dein Passwort erinnerst.&r"
+  auth-title: "Anmelden&r"
+  input-passw: "Passwort:&r"
+  changepassword-title: "Ändere dein Passwort&r"
+  input-new_password: "&lNeues Passwort:&r"
+  input-confirm_new_password: "&lBestätige dein Passwort:&r"
+
+already-play: "&cEin Spieler mit diesem Namen spielt bereits auf dem Server!"
+...
