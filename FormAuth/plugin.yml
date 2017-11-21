@@ -1,0 +1,19 @@
+name: FormAuth
+main: dirouc\FormAuth\FormAuth
+version: "1.2.3"
+api: 3.0.0-ALPHA9
+author: dirouc
+
+commands:
+  changepassword:
+    aliases: [ch, chp, chpass, chpwd]
+    description: Allows changing account password
+    permission: formauth.changepassword
+permissions:
+  formauth:
+    default: op
+    description: FormAuth commands permissions.
+    children:
+      formauth.changepassword:
+        default: true
+        description: Allows changing account password.

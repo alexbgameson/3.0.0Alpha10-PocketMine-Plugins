@@ -1,0 +1,29 @@
+---
+messages-version: "1.0.0"
+language: "uk"
+
+already-registered: "&cВи вже зареєструвалися."
+short-password: "&cПароль занадто короткий."
+long-password: "&cПароль занадто довгий."
+success-register: "&aВи успішно зареєструвалися на сервері."
+ip-register: "&cКількість реєстрацій з однієї IP-адреси досягло максимуму."
+auth-success: "&aВи успішно авторизувалися на сервері."
+many-password-attempts: "&cЗанадто багато спроб введення пароля."
+wrong-password: "&cНевірний пароль."
+already-auth: "&cВи вже авторизувалися."
+changepassword-success: "&aВи успішно змінили пароль."
+no-already-register: "&cВи не є зареєстрованим користувачем."
+password-password: "&cВведені паролі не збігаються."
+
+form:
+  register-title: "&lРеєстрація&r"
+  input-password: "&lПароль:&r\n&7Придумайте надійний пароль від %var0% до %var1% символів.&r"
+  confirm-input-password: "&lПовторіть пароль:&r\n&7Потрібно переконатися, що Ви запам'ятали пароль.&r"
+  auth-title: "&lАвторизація&r"
+  input-passw: "&lПароль:&r"
+  changepassword-title: "&lЗміна пароля&r"
+  input-new_password: "&lНовий пароль:&r"
+  input-confirm_new_password: "&lПовторіть пароль:&r"
+
+already-play: "&cГравець з цим ніком вже грає на сервері!"
+...
