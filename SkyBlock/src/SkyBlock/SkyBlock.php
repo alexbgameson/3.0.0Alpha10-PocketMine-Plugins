@@ -54,11 +54,11 @@ class SkyBlock extends PluginBase {
         $this->setResetHandler();
         $this->setPluginHearbeat();
         $this->registerCommand();
-        $this->getLogger()->info("SkyBlock by @GiantAmethyst was enabled.");
+        $this->getLogger()->info("SkyBlock was enabled.");
     }
 
     public function onDisable() {
-        $this->getLogger()->info("SkyBlock by @GiantAmethyst was disabled.");
+        $this->getLogger()->info("SkyBlock was disabled.");
     }
 
     /**
