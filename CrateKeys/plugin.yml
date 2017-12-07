@@ -3,6 +3,12 @@ authors: ["Primus","jasonwynn10"]
 api:
  - 3.0.0
  - 3.0.0-ALPHA9
+ - 3.0.0-ALPHA10
+ - 3.0.0-ALPHA11
+ - 3.0.0-ALPHA12
+ - 3.0.0-ALPHA13
+ - 3.0.0-ALPHA14
+ - 3.0.0-ALPHA15
 description: "A CrateKeys plugin for PocketMine-MP servers!"
 main: Primus\CrateKeys\Main
 version: 1.0.2
