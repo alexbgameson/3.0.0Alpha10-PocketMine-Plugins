@@ -3,4 +3,4 @@ author: CrazedMiner
 version: 1.0
 description: Players get their Health shown above their head!
 main: HealthStatus\Main
-api: [3.0.0-ALPHA9]
+api: [3.0.0-ALPHA10]
