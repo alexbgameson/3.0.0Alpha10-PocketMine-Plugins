@@ -2,7 +2,7 @@ name: RankUp
 main: rankup\RankUp
 version: 0.3.2
 author: Falkirks
-api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
 load: POSTWORLD
 softdepend: ["EconomyAPI", "PocketMoney", "PurePerms"]
 permissions:
