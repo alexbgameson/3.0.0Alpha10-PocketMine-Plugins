@@ -1,0 +1,15 @@
+---
+name: AlwaysSpawn
+authors:
+- Philip Shilling
+version: 2.2.3-3
+api:
+- 3.0.0-ALPHA7
+- 3.0.0-ALPHA8
+- 3.0.0-ALPHA9
+- 3.0.0-ALPHA10
+- 3.0.0-ALPHA11
+main: philipshilling\alwaysspawn\Loader
+load: STARTUP
+description: Force your users to spawn every time they login!
+...
