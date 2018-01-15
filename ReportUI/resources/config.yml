@@ -1,0 +1,36 @@
+config-version: 3
+
+save-period: 600
+# Default reasons available when report
+reasons:
+  - Harassment
+  - Offensive Profile
+  - Spamming Advertisements
+  - Suspected Cheater/Hacker
+  - Impersonating another player
+# This will allow players to report with their own reasons.
+allow-custom-reason: true
+
+custom-reason-min-length: 4
+
+custom-reason-max-length: 20
+
+allow-reporting-ops: false
+
+allow-reporting-banned-players: false
+
+# Plugin will check for new version from Github
+check-update: true
+
+# Player who has the notification permission will receive
+# a message if someone got reported.
+enable-new-report-notification: true
+
+# Player who has the notification permission will receive
+# a message when they join the server if there's new reports
+enable-new-report-notification-on-join: true
+
+# If enabled, you will have to select an online player from a dropdown list when reporting
+# And you can no longer report players that are not online
+# This feature will be improved in the future
+use-dropdown-select: false
