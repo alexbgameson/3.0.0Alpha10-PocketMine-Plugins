@@ -1,0 +1,93 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/alexbgameson/3.0.0Alpha10-PocketMine-Plugins
+branches:
+- master
+projects:
+  1vs1:
+    path: 1vs1/
+  2vs2:
+    path: 2vs2/
+  345-AllSigns-f4d20:
+    path: 345-AllSigns-f4d20/
+  345-AlwaysSpawn-a1cd2:
+    path: 345-AlwaysSpawn-a1cd2/
+  AllSigns:
+    path: AllSigns/
+  BoostPad:
+    path: BoostPad/
+  Buycraft:
+    path: Buycraft/
+  CombatLogger:
+    path: CombatLogger/
+  CrateKeys:
+    path: CrateKeys/
+  CustomHelp:
+    path: CustomHelp/
+  EnderChest:
+    path: EnderChest/
+  FormAPI:
+    path: FormAPI/
+  FormAuth:
+    path: FormAuth/
+  FormShop:
+    path: FormShop/
+  GrabBagCommands:
+    path: GrabBagCommands/
+  HealthStatus:
+    path: HealthStatus/
+  JoinSystem:
+    path: JoinSystem/
+  KillCash:
+    path: KillCash/
+  KitUI:
+    path: KitUI/
+  KnockbackFFA:
+    path: KnockbackFFA/
+  LuckyDrop:
+    path: LuckyDrop/
+  MaskShop-UI:
+    path: MaskShop-UI/
+  MineReset:
+    path: MineReset/
+  Multi-Inv:
+    path: Multi-Inv/
+  MultiWorld:
+    path: MultiWorld/
+  PVPlevelRPG:
+    path: PVPlevelRPG/
+  PeacefulSpawn:
+    path: PeacefulSpawn/
+  PerWorldChat:
+    path: PerWorldChat/
+  PlayerVaults:
+    path: PlayerVaults/
+  ProfileUI:
+    path: ProfileUI/
+  RankUp:
+    path: RankUp/
+  ReportGUI:
+    path: ReportGUI/
+  ReportUI:
+    path: ReportUI/
+  RestartMe:
+    path: RestartMe/
+  SkyBlock:
+    path: SkyBlock/
+  SkyBlockPE:
+    path: SkyBlockPE/
+  SoupFFA:
+    path: SoupFFA/
+  StatsPE-master:
+    path: StatsPE-master/
+  SuperVanish:
+    path: SuperVanish/
+  TapToDo:
+    path: TapToDo/
+  TeaSpoon:
+    path: TeaSpoon/
+  Texter:
+    path: Texter/
+  TimeCommander:
+    path: TimeCommander/
+  WorldTpUI:
+    path: WorldTpUI/
+...
