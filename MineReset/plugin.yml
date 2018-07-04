@@ -2,7 +2,7 @@ name: MineReset
 main: falkirks\minereset\MineReset
 version: 3.0
 author: Falk
-api: [3.0.0-ALPHA7, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA10, 3.0.0-ALPHA11,3.0.0-ALPHA12, 3.0.0-ALPHA13]
 load: POSTWORLD
 permissions:
  minereset:
