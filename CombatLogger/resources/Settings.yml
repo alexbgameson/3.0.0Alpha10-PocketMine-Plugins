@@ -7,11 +7,11 @@ kill-on-log: true
 # List of commands players cannot execute while in combat
 banned-commands:
   - tp
-  - warp
-  - tpa
-  - spawn
+  - warpui
+  - sb join
+  - hub
 messages:
- player-tagged: "&c- &6You are now in combat, do not logout or you will be punished!"
- player-tagged-timeout: "&6- &aYou are no longer in combat!"
- player-run-banned-command: "&c- &6You cannot execute this command whilst in combat!"
+ player-tagged: "&c- You are now in combat, do not logout or you will be punished!"
+ player-tagged-timeout: "&a- You are no longer in combat!"
+ player-run-banned-command: "&c- You cannot execute this command whilst in combat!"
 ...
