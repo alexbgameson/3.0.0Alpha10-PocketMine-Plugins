@@ -1,7 +1,7 @@
 name: WorldTpUI
 main: Zero\WorldTpUI\Main
 version: 0.0.4
-api: 3.0.0-ALPHA10
+api: 3.0.0
 load: POSTWORLD
 author: ZeroDevOfficial
 description: Allows Admins to tp between worlds with a simple UI in PocketMine
